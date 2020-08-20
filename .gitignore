@@ -1,0 +1,14 @@
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and database
+.env
+.env.*
+!.env.example
+*.log
+*.sql
+*.sqlite
+
+*.o
+*.so
+*.vendor
